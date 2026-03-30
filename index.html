@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crossnumber Puzzle v2</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+
+  <!-- Mobile clue bar -->
+  <div id="mobile-clue-bar"></div>
+
+  <!-- Puzzle wrapper (prevents blue overflow) -->
+  <div class="puzzle-wrapper">
+    <div id="puzzle" class="puzzle"></div>
+  </div>
+
+  <!-- Controls -->
+  <div class="controls">
+    <button id="check-btn">Check</button>
+  </div>
+
+  <!-- Clues -->
+  <div class="clue-container">
+    <div class="clue-column">
+      <h2>Across</h2>
+      <ul id="across-list" class="clue-list"></ul>
+    </div>
+
+    <div class="clue-column">
+      <h2>Down</h2>
+      <ul id="down-list" class="clue-list"></ul>
+    </div>
+  </div>
+
+</div>
+
+<script src="engine.js"></script>
+</body>
+</html>
