@@ -1,427 +1,495 @@
 {
-  "meta": {
-    "id": "Puzzle-002",
-    "title": "Puzzle-002"
-  },
-  "layout": [
-    "#11#111#",
-    "111##11#",
-    "1#111#11",
-    "1##111#1",
-    "#11#11#1",
-    "1111#111",
-    "111###1#",
-    "#111#111"
+  "grid": [
+    [
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      1
+    ],
+    [
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ]
   ],
-  "clues": {
-    "across": {
-      "1": "Two thirds of 1D? Or vice versa?",
-      "3": "A 3 digit palindrome prime number",
-      "6": "One digit cubed",
-      "7": "2 digit, multiple of 4. Reversed a perfect square",
-      "8": "Square of 2 digit prime",
-      "11": "square root of 5 down",
-      "15": "My digits sum to 3",
-      "17": "No clue",
-      "18": "expect this to be a leap year but is not",
-      "19": "12D divided by 2+1",
-      "22": "18A divided by 20+ 10",
-      "23": "1 less than a power of 2"
+  "lockedBlocks": [
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false
+    ]
+  ],
+  "numbering": [
+    [
+      0,
+      1,
+      2,
+      0,
+      3,
+      4,
+      5,
+      0
+    ],
+    [
+      6,
+      0,
+      0,
+      0,
+      0,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      8,
+      9,
+      10,
+      0,
+      11,
+      12
+    ],
+    [
+      0,
+      0,
+      0,
+      13,
+      0,
+      14,
+      0,
+      0
+    ],
+    [
+      0,
+      15,
+      16,
+      0,
+      17,
+      0,
+      0,
+      0
+    ],
+    [
+      18,
+      0,
+      0,
+      0,
+      0,
+      19,
+      20,
+      0
+    ],
+    [
+      21,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      22,
+      0,
+      0,
+      0,
+      23,
+      0,
+      0
+    ]
+  ],
+  "entries": [
+    {
+      "num": 1,
+      "dir": "across",
+      "row": 1,
+      "col": 2,
+      "len": 2,
+      "clue": "Two thirds of 1D? Or vice versa?",
+      "answer": "18"
     },
-    "down": {
-      "1": "See 1A",
-      "2": "Half is a prime number",
-      "5": "See 11A",
-      "6": "Third palindromic prime in the range 6 A will provide",
-      "9": "A square",
-      "10": "Another square",
-      "12": "19Ax2-2",
-      "14": "Repeated digits  divisible by the first digit of 2D",
-      "15": "This is a cube",
-      "16": "My digits add up to 13",
-      "18": "Prime whose digits sum to 11",
-      "20": "Half of another answer"
-    }
-  },
-  "clueCells": {
-    "across": {
-      "1": [
-        [
-          0,
-          1
-        ],
-        [
-          0,
-          2
-        ]
-      ],
-      "3": [
-        [
-          0,
-          4
-        ],
-        [
-          0,
-          5
-        ],
-        [
-          0,
-          6
-        ]
-      ],
-      "6": [
-        [
-          1,
-          0
-        ],
-        [
-          1,
-          1
-        ],
-        [
-          1,
-          2
-        ]
-      ],
-      "7": [
-        [
-          1,
-          5
-        ],
-        [
-          1,
-          6
-        ]
-      ],
-      "8": [
-        [
-          2,
-          2
-        ],
-        [
-          2,
-          3
-        ],
-        [
-          2,
-          4
-        ]
-      ],
-      "11": [
-        [
-          2,
-          6
-        ],
-        [
-          2,
-          7
-        ]
-      ],
-      "15": [
-        [
-          4,
-          1
-        ],
-        [
-          4,
-          2
-        ]
-      ],
-      "17": [
-        [
-          4,
-          4
-        ],
-        [
-          4,
-          5
-        ]
-      ],
-      "18": [
-        [
-          5,
-          0
-        ],
-        [
-          5,
-          1
-        ],
-        [
-          5,
-          2
-        ],
-        [
-          5,
-          3
-        ]
-      ],
-      "19": [
-        [
-          5,
-          5
-        ],
-        [
-          5,
-          6
-        ],
-        [
-          5,
-          7
-        ]
-      ],
-      "22": [
-        [
-          7,
-          1
-        ],
-        [
-          7,
-          2
-        ],
-        [
-          7,
-          3
-        ]
-      ],
-      "23": [
-        [
-          7,
-          5
-        ],
-        [
-          7,
-          6
-        ],
-        [
-          7,
-          7
-        ]
-      ]
+    {
+      "num": 1,
+      "dir": "down",
+      "row": 1,
+      "col": 2,
+      "len": 2,
+      "clue": "See 1A",
+      "answer": "12"
     },
-    "down": {
-      "1": [
-        [
-          0,
-          1
-        ],
-        [
-          1,
-          1
-        ]
-      ],
-      "2": [
-        [
-          0,
-          2
-        ],
-        [
-          1,
-          2
-        ],
-        [
-          2,
-          2
-        ]
-      ],
-      "5": [
-        [
-          0,
-          6
-        ],
-        [
-          1,
-          6
-        ],
-        [
-          2,
-          6
-        ]
-      ],
-      "6": [
-        [
-          1,
-          0
-        ],
-        [
-          2,
-          0
-        ],
-        [
-          3,
-          0
-        ]
-      ],
-      "9": [
-        [
-          2,
-          3
-        ],
-        [
-          3,
-          3
-        ]
-      ],
-      "10": [
-        [
-          2,
-          4
-        ],
-        [
-          3,
-          4
-        ],
-        [
-          4,
-          4
-        ]
-      ],
-      "12": [
-        [
-          2,
-          7
-        ],
-        [
-          3,
-          7
-        ],
-        [
-          4,
-          7
-        ],
-        [
-          5,
-          7
-        ]
-      ],
-      "14": [
-        [
-          3,
-          5
-        ],
-        [
-          4,
-          5
-        ],
-        [
-          5,
-          5
-        ]
-      ],
-      "15": [
-        [
-          4,
-          1
-        ],
-        [
-          5,
-          1
-        ],
-        [
-          6,
-          1
-        ],
-        [
-          7,
-          1
-        ]
-      ],
-      "16": [
-        [
-          4,
-          2
-        ],
-        [
-          5,
-          2
-        ],
-        [
-          6,
-          2
-        ],
-        [
-          7,
-          2
-        ]
-      ],
-      "18": [
-        [
-          5,
-          0
-        ],
-        [
-          6,
-          0
-        ]
-      ],
-      "20": [
-        [
-          5,
-          6
-        ],
-        [
-          6,
-          6
-        ],
-        [
-          7,
-          6
-        ]
-      ]
-    }
-  },
-  "solutions": {
-    "across": {
-      "1": "18",
-      "3": "151",
-      "6": "729",
-      "7": "52",
-      "8": "841",
-      "11": "11",
-      "15": "12",
-      "17": "48",
-      "18": "2300",
-      "19": "842",
-      "22": "125",
-      "23": "511"
+    {
+      "num": 2,
+      "dir": "down",
+      "row": 1,
+      "col": 3,
+      "len": 3,
+      "clue": "Half is a prime number",
+      "answer": "898"
     },
-    "down": {
-      "1": "12",
-      "2": "898",
-      "5": "121",
-      "6": "787",
-      "9": "49",
-      "10": "144",
-      "12": "1682",
-      "14": "888",
-      "15": "1331",
-      "16": "2092",
-      "18": "29",
-      "20": "421"
+    {
+      "num": 3,
+      "dir": "across",
+      "row": 1,
+      "col": 5,
+      "len": 3,
+      "clue": "A 3 digit palindrome prime number",
+      "answer": "151"
+    },
+    {
+      "num": 4,
+      "dir": "down",
+      "row": 1,
+      "col": 6,
+      "len": 2,
+      "clue": "A centurion might have written LV",
+      "answer": "55"
+    },
+    {
+      "num": 5,
+      "dir": "down",
+      "row": 1,
+      "col": 7,
+      "len": 3,
+      "clue": "See 11A",
+      "answer": "121"
+    },
+    {
+      "num": 6,
+      "dir": "across",
+      "row": 2,
+      "col": 1,
+      "len": 3,
+      "clue": "One digit cubed",
+      "answer": "729"
+    },
+    {
+      "num": 6,
+      "dir": "down",
+      "row": 2,
+      "col": 1,
+      "len": 3,
+      "clue": "Third palindromic prime in the range 6 A will provide",
+      "answer": "787"
+    },
+    {
+      "num": 7,
+      "dir": "across",
+      "row": 2,
+      "col": 6,
+      "len": 2,
+      "clue": "2 digit, multiple of 4. Reversed a perfect square",
+      "answer": "52"
+    },
+    {
+      "num": 8,
+      "dir": "across",
+      "row": 3,
+      "col": 3,
+      "len": 3,
+      "clue": "Square of 2 digit prime",
+      "answer": "841"
+    },
+    {
+      "num": 9,
+      "dir": "down",
+      "row": 3,
+      "col": 4,
+      "len": 2,
+      "clue": "A square",
+      "answer": "49"
+    },
+    {
+      "num": 10,
+      "dir": "down",
+      "row": 3,
+      "col": 5,
+      "len": 3,
+      "clue": "Another square",
+      "answer": "144"
+    },
+    {
+      "num": 11,
+      "dir": "across",
+      "row": 3,
+      "col": 7,
+      "len": 2,
+      "clue": "square root of 5 down",
+      "answer": "11"
+    },
+    {
+      "num": 12,
+      "dir": "down",
+      "row": 3,
+      "col": 8,
+      "len": 4,
+      "clue": "19Ax2-2",
+      "answer": "1682"
+    },
+    {
+      "num": 13,
+      "dir": "across",
+      "row": 4,
+      "col": 4,
+      "len": 3,
+      "clue": "Digits sum to 21",
+      "answer": "948"
+    },
+    {
+      "num": 14,
+      "dir": "down",
+      "row": 4,
+      "col": 6,
+      "len": 3,
+      "clue": "Repeated digits  divisible by the first digit of 2D",
+      "answer": "888"
+    },
+    {
+      "num": 15,
+      "dir": "down",
+      "row": 5,
+      "col": 2,
+      "len": 4,
+      "clue": "This is a cube",
+      "answer": "1331"
+    },
+    {
+      "num": 15,
+      "dir": "across",
+      "row": 5,
+      "col": 2,
+      "len": 2,
+      "clue": "Quarter of 17A",
+      "answer": "12"
+    },
+    {
+      "num": 16,
+      "dir": "down",
+      "row": 5,
+      "col": 3,
+      "len": 4,
+      "clue": "My digits add up to 13",
+      "answer": "2092"
+    },
+    {
+      "num": 17,
+      "dir": "across",
+      "row": 5,
+      "col": 5,
+      "len": 2,
+      "clue": "No clue",
+      "answer": "48"
+    },
+    {
+      "num": 18,
+      "dir": "down",
+      "row": 6,
+      "col": 1,
+      "len": 2,
+      "clue": "Prime whose digits sum to 11",
+      "answer": "29"
+    },
+    {
+      "num": 18,
+      "dir": "across",
+      "row": 6,
+      "col": 1,
+      "len": 4,
+      "clue": "expect this to be a leap year but is not",
+      "answer": "2300"
+    },
+    {
+      "num": 19,
+      "dir": "across",
+      "row": 6,
+      "col": 6,
+      "len": 3,
+      "clue": "12D divided by 2+1",
+      "answer": "842"
+    },
+    {
+      "num": 20,
+      "dir": "down",
+      "row": 6,
+      "col": 7,
+      "len": 3,
+      "clue": "Half of another answer",
+      "answer": "421"
+    },
+    {
+      "num": 21,
+      "dir": "across",
+      "row": 7,
+      "col": 1,
+      "len": 3,
+      "clue": "Digits sum to 21 and its a palindrome",
+      "answer": "939"
+    },
+    {
+      "num": 22,
+      "dir": "across",
+      "row": 8,
+      "col": 2,
+      "len": 3,
+      "clue": "18A divided by 20+ 10",
+      "answer": "125"
+    },
+    {
+      "num": 23,
+      "dir": "across",
+      "row": 8,
+      "col": 6,
+      "len": 3,
+      "clue": "1 less than a power of 2",
+      "answer": "511"
     }
-  },
-  "numbering": {
-    "0,1": "1",
-    "0,2": "2",
-    "0,4": "3",
-    "0,5": "4",
-    "0,6": "5",
-    "1,0": "6",
-    "1,5": "7",
-    "2,2": "8",
-    "2,3": "9",
-    "2,4": "10",
-    "2,6": "11",
-    "2,7": "12",
-    "3,3": "13",
-    "3,5": "14",
-    "4,1": "15",
-    "4,2": "16",
-    "4,4": "17",
-    "5,0": "18",
-    "5,5": "19",
-    "5,6": "20",
-    "6,0": "21",
-    "7,1": "22",
-    "7,5": "23"
-  }
+  ],
+  "rows": 8,
+  "cols": 8
 }
