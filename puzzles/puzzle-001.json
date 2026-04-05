@@ -378,7 +378,7 @@
       "row": 4,
       "col": 4,
       "len": 3,
-      "clue": "Digits sum to 21",
+      "clue": "12 x a 2 digit prime",
       "answer": "948"
     },
     {
@@ -468,7 +468,7 @@
       "row": 7,
       "col": 1,
       "len": 3,
-      "clue": "Digits sum to 21 and its a palindrome",
+      "clue": "The first and last digit are a multiple of the middle one",
       "answer": "939"
     },
     {
